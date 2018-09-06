@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <tittle>
+<h1>Welcome to My Web Page.</h1>
+
+</tittle>
+  
+</head>
+<style>
+   h2,h5,h3,p,h6,h4{ font-family: verdana;
+   color:purple;
+   text-align :center;
+   }
+   body{font-family: verdana;
+   text-align: left;
+   text-size:12%;
+   back-ground:transparent;
+   position:relative;
+   }
+   
+   .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height:45%;
+}
+   
+   
+     
+   
+   tittle, h1{
+       text-align:center;
+       color: green;
+       font-family: verdana;
+       text-size:20%
+       
+   }
+    
+        footer{
+	background-color:grey;
+	color:green;
+	width:100%;
+	clear:both;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+    padding: 20px;
+    text-align: horizontal;
+}
+
+
+ </style>
+<body>
+   
+
+<p><h2> This is my first Web page, please nagivate through it and see what you can do</h2></p>
+<p><h3> You can also be part of us.</h3></p>
+<h3><%=link_to'About', about_path%></h3>
+
+<p><h3>Dont be the last to know</h3></p>
+<p><h4> This is Fresh and Clean and I love Jesus Christ</h4></p>
+<%= link_to image_tag('~/alpha-blog/app/assets/images/agents-Pesamoni1.jpeg'), 'www.mashrurhossain.com' %>
+</body>
+
+<footer>
+ <h3>Home</h3>|<h3>About us</h3>|<h3>Contact Us</h3>
+    
+</footer>
+</html>
